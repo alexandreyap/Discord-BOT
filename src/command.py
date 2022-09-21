@@ -15,7 +15,7 @@ async def return_name(ctx):
 This function returns an integer between 1 and 6
 '''
 async def roll_number(ctx):
-    await ctx.send(randint(1, 6))
+    await ctx.send(str(randint(1, 6)) + " 🎲")
 
 '''
 This function returns a link to xkcd comics

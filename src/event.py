@@ -9,6 +9,6 @@ async def reply(message, bot):
         return
 
     if message.content == 'Salut tout le monde':
-        reply = f'Salut tout seul {message.author.mention}'
+        reply = f'Salut tout seul {message.author.mention} 😆'
         await message.channel.send(reply)
     await bot.process_commands(message)
